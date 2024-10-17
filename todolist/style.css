@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+	border: 1px solid gray;
+  }
+
+  body { 
+	background: rgb(0,0,0);
+	background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgba(253,187,45,1) 100%);
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 50px;
+  }
+
+  #todo-container {
+	background: rgb(41, 33, 33);
+	width: 400px;
+	margin: 0 auto;
+	border: 2px solid #0033ff;
+	padding: 20px;
+	color: white;
+	border-radius: 15px;
+  }
+
+  #todo-container {
+	background: rgb(41, 33, 33);
+	width: 400px;
+	margin: 0 auto;
+	border: 2px solid #0033ff;
+	padding: 20px;
+	color: white;
+	border-radius: 15px;
+  }
+
+  #header {
+	margin: 5px;
+	font-size: 20px;
+	text-align: center;
+  }
+  
+  h1 {
+	margin-bottom: 20px; 
+  }
+  
+  #input-box {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+  }
+  
+  #input-button {
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #2e60ea;
+  }
+  
+  #input-button:hover {
+	background-color: #9eb7fd; 
+  }
+  ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	text-align:left;
+  
+  }
+  
+  li {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+	float: right;
+	color:crimson;
+	cursor: pointer;
+	margin: 3px 5px;
+	border: none;
+	padding: 3px 5px;
+	background: none;
+  } 
+  
+  .completed {
+	text-decoration: line-through;
+	color: gray;
+	border: 1px solid gray;
+  }
+
+
+
