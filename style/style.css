@@ -1,0 +1,123 @@
+.logo{
+height: 70px;
+width: 70px;
+
+align-items: center;
+
+}
+
+.nav-item:hover{
+font-weight: bold;
+}
+
+.nav-link{
+    color: #0e82a9;
+    }
+
+.navbar {
+background-color: #FCFCFC;
+}
+
+.herosection{
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: 0px -70px;
+    background-image: url("../img/Balkot.png");
+}
+
+.herosection h1{
+font-size: 50px;
+font-weight: bold;
+color: white;
+position: relative;
+top: 125px;
+}
+
+.herosection p{
+    font-size: large;
+    color: white;
+    position: relative;
+    top: 133px;
+}
+
+.herosection .btn{
+    position: relative;
+    top: 140px;
+    left: 705px;
+    width: 130px;
+    font-size: larger;
+}
+
+body {
+    background-color: #f1f4f5;
+}
+
+
+.destinasi .card img{
+    height: 200px;
+    width: 270px;
+    margin-top: 5px;
+     
+}
+.destinasi .card {
+    width: 300px;
+    margin-right: 10px;
+    height: 350px;
+    
+}
+
+.judul-destinasi{
+    font-size: large;
+    margin-top: 3px;
+    color: #0e82a9;
+}
+
+.galeri{
+    color: white;
+    background-color: #0e82a9;
+    padding-bottom: 20px;
+}
+
+.galeri img{
+    width: 1000px;
+    margin-top: 20px;
+    
+}
+
+.contactme .col-4{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #03045E;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.contactme ul li {
+    display: inline-block;
+    margin-top: 260px;
+    
+}
+.contactme ul li a img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+.footer{
+    padding-top: 100px;
+    background-color: #0e82a9;
+}
+
+.footer img{
+    width: 100%;
+}
